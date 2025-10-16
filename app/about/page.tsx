@@ -25,59 +25,86 @@ export default function About() {
           About Us
         </h1>
 
-        <div className="space-y-8 text-black leading-relaxed">
+        <div className="space-y-12 text-black leading-relaxed">
           <div>
-            <p className="text-2xl md:text-3xl font-light tracking-wide mb-4">
-              <strong>Disrupt. Evolve. Be Relentless.</strong>
+            <p className="text-2xl md:text-3xl font-bold tracking-wide mb-4">
+              Disrupt. Evolve. Be Relentless.
             </p>
-            <p className="text-lg md:text-xl font-light">
-              It&apos;s more than a motto. It&apos;s our DNA.
+            <p className="text-base md:text-lg font-light">
+              It&apos;s more than a motto — it&apos;s how we move through everything.
             </p>
           </div>
 
-          <p className="text-base md:text-lg font-light leading-relaxed">
-            <strong className="font-semibold">MUV</strong> was born from a relentless drive to push boundaries—on and off the mats. Inspired by the Tamil phrase <em>மாற்றம் செய். உயர்வு அடை. விடாமுயற்சி கொண்டிரு.</em> (Disrupt. Evolve. Be Relentless.), our name reflects our commitment to constant progress, cultural depth, and uncompromising standards.
-          </p>
+          <div className="space-y-4">
+            <p className="text-base md:text-lg font-light leading-relaxed">
+              <strong>MUV</strong> was born from a need to keep pushing — to make things that feel intentional, that stand for something.
+              Our name comes from the Tamil phrase
+            </p>
+            <p className="text-lg md:text-xl font-bold leading-relaxed">
+              மாற்றம் செய். உயர்வு அடை. விடாமுயற்சி கொண்டிரு.
+            </p>
+            <p className="text-lg md:text-xl font-bold leading-relaxed">
+              Maatram Sei. Uyarvu Adai. Vidamuyarchi Kondiru.
+            </p>
+            <p className="text-base md:text-lg font-light leading-relaxed">
+              It&apos;s a reminder of what drives us: change, growth, and persistence.
+            </p>
+          </div>
 
-          <div>
+          <div className="border-t border-black/20 pt-8">
             <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
               Built for the Obsessive
             </h2>
+            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
+              We make gear for people who care — about how something feels, fits, and holds up through time.
+              For the ones chasing better every day, the ones who never stop refining.
+            </p>
             <p className="text-base md:text-lg font-light leading-relaxed">
-              We design for those who live at the edge—the ones chasing the extra round, refining every detail, evolving daily. Our gear isn&apos;t for the casual. It&apos;s for the obsessed. The ones who demand performance, precision, and presence in everything they wear.
+              MUV isn&apos;t made for everyone. It&apos;s made for those who live with intent.
             </p>
           </div>
 
-          <div>
+          <div className="border-t border-black/20 pt-8">
             <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
               High-End by Design
             </h2>
             <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              Every MUV product starts with one question: <em>What does excellence look like?</em>
+              We don&apos;t rush things.
+              Every material, every stitch, every design choice has a reason behind it.
             </p>
-            <p className="text-base md:text-lg font-light leading-relaxed">
-              We use only premium materials, rigorous construction, and future-facing design principles. From innovative textiles to obsessive detailing, our gear is engineered to perform under pressure—and look good doing it.
+            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
+              Premium fabrics. Honest construction. Details that last.
+              We ask ourselves one question before anything leaves the studio: Would we wear this every day?
             </p>
           </div>
 
-          <div>
+          <div className="border-t border-black/20 pt-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
+              Our Promise
+            </h2>
+            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
+              We&apos;ll never release something we don&apos;t believe in.
+              If it doesn&apos;t perform, endure, and feel right — it doesn&apos;t make the cut.
+            </p>
+            <p className="text-base md:text-lg font-light leading-relaxed">
+              We make fewer things, but we make them right.
+              That&apos;s our promise: every piece should earn its place in your life.
+            </p>
+          </div>
+
+          <div className="border-t border-black/20 pt-8">
             <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
               Where We&apos;re Going
             </h2>
             <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              MUV begins in Jiu-Jitsu, but the mission goes far beyond. We&apos;re building a system of gear and apparel for athletes and creators who refuse to plateau. BJJ today. Activewear and lifestyle tomorrow. Different sports next. The core stays the same:
+              MUV starts with Jiu-Jitsu — our home base. But this is just the beginning.
             </p>
-            <p className="text-xl md:text-2xl font-light tracking-wide">
+            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
+              We&apos;re building a system of gear that adapts as you grow — from the mats to the gym to wherever you move next.
+              Because the pursuit never ends and the core stays the same:
+            </p>
+            <p className="text-xl md:text-2xl font-bold tracking-wide">
               Disrupt. Evolve. Be Relentless.
-            </p>
-          </div>
-
-          <div className="pt-8 border-t border-black/10">
-            <p className="text-base md:text-lg font-light">
-              Thank you,
-            </p>
-            <p className="text-base md:text-lg font-semibold">
-              Team MUV
             </p>
           </div>
         </div>
