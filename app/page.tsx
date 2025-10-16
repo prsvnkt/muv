@@ -21,7 +21,7 @@ export default function Home() {
       </nav>
       <main className="flex flex-col items-center justify-center flex-1 w-full max-w-4xl">
         {/* Logo */}
-        <div className="mb-8 animate-fadeIn">
+        <div className="mb-8">
           <Image
             src="/Logo.png"
             alt="MUV Logo"
@@ -33,14 +33,14 @@ export default function Home() {
         </div>
 
         {/* Tagline */}
-        <div className="mb-12 animate-fadeIn animation-delay-200">
+        <div className="mb-12">
           <p className={`text-xl md:text-2xl text-black font-light tracking-wide ${montserrat.className}`}>
             Disrupt. Evolve. Be Relentless.
           </p>
         </div>
 
         {/* Coming Soon Message */}
-        <div className="text-center animate-fadeIn animation-delay-400">
+        <div className="text-center">
           <h1 className={`text-5xl md:text-7xl font-bold text-black tracking-tight ${montserrat.className}`}>
             Coming Early 2026
           </h1>
@@ -48,7 +48,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="w-full py-8 text-center animate-fadeIn animation-delay-400">
+      <footer className="w-full py-8 text-center">
         <p className="text-sm text-black/60">
           Pour Global Ltd. trading as MUV
         </p>
