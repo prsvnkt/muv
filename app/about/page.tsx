@@ -31,7 +31,7 @@ export default function About() {
               <strong>Disrupt. Evolve. Be Relentless.</strong>
             </p>
             <p className="text-lg md:text-xl font-light">
-              It's more than a motto. It's our DNA.
+              It&apos;s more than a motto. It&apos;s our DNA.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ export default function About() {
               Built for the Obsessive
             </h2>
             <p className="text-base md:text-lg font-light leading-relaxed">
-              We design for those who live at the edge—the ones chasing the extra round, refining every detail, evolving daily. Our gear isn't for the casual. It's for the obsessed. The ones who demand performance, precision, and presence in everything they wear.
+              We design for those who live at the edge—the ones chasing the extra round, refining every detail, evolving daily. Our gear isn&apos;t for the casual. It&apos;s for the obsessed. The ones who demand performance, precision, and presence in everything they wear.
             </p>
           </div>
 
@@ -62,10 +62,10 @@ export default function About() {
 
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
-              Where We're Going
+              Where We&apos;re Going
             </h2>
             <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              MUV begins in Jiu-Jitsu, but the mission goes far beyond. We're building a system of gear and apparel for athletes and creators who refuse to plateau. BJJ today. Activewear and lifestyle tomorrow. Different sports next. The core stays the same:
+              MUV begins in Jiu-Jitsu, but the mission goes far beyond. We&apos;re building a system of gear and apparel for athletes and creators who refuse to plateau. BJJ today. Activewear and lifestyle tomorrow. Different sports next. The core stays the same:
             </p>
             <p className="text-xl md:text-2xl font-light tracking-wide">
               Disrupt. Evolve. Be Relentless.
