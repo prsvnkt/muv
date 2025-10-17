@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
+import { FaInstagram } from "react-icons/fa";
 
 const montserrat = Montserrat({
   weight: ["300", "400", "600", "700"],
@@ -115,9 +116,25 @@ export default function About() {
 
       {/* Footer */}
       <footer className="max-w-4xl mx-auto mt-16 pt-8 text-center">
-        <p className="text-sm text-black/60">
-          Pour Global Ltd. trading as MUV
-        </p>
+        <div className="flex items-center justify-center gap-4 text-sm text-black/60">
+          <p>Pour Global Ltd. trading as MUV</p>
+          <span>|</span>
+          <a
+            href="mailto:contact@muvclo.com"
+            className="hover:text-black transition-colors"
+          >
+            contact@muvclo.com
+          </a>
+          <span>|</span>
+          <a
+            href="https://instagram.com/muvclo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black transition-colors"
+          >
+            <FaInstagram />
+          </a>
+        </div>
       </footer>
     </div>
   );
