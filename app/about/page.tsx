@@ -61,7 +61,7 @@ export default function About() {
           </h2>
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
             We make apparel for people who care about how something feels, fits, and holds up through time.
-            For the ones chasing better every day, the ones who never stop refining.
+            For the ones chasing to be better every day, the ones who never stop refining.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function About() {
             Where We&apos;re Going
           </h2>
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
-            MUV starts with Jiu-Jitsu — our home base. But this is just the beginning.
+            We are starting with Jiu-Jitsu — our home base. But this is just the beginning.
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed mb-4">
             We&apos;re building a system of apparel that adapts as you grow — from the mats to the gym to wherever you move next.<br />
