@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
@@ -19,94 +20,96 @@ export default function About() {
         </Link>
       </nav>
 
-      {/* Content */}
-      <main className="max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-6xl font-bold text-black mb-8 tracking-tight">
-          About Us
-        </h1>
+      {/* Main Content */}
+      <main className="flex flex-col items-center justify-center flex-1 w-full max-w-4xl mx-auto">
+        {/* Logo */}
+        <div className="mb-8">
+          <Image
+            src="/Logo.png"
+            alt="MUV Logo"
+            width={600}
+            height={200}
+            priority
+            className="w-full max-w-[600px] h-auto"
+          />
+        </div>
 
-        <div className="space-y-12 text-black leading-relaxed">
-          <div>
-            <p className="text-2xl md:text-3xl font-bold tracking-wide mb-4">
-              Disrupt. Evolve. Be Relentless.
-            </p>
-            <p className="text-base md:text-lg font-light">
-              It&apos;s more than a motto — it&apos;s how we move through everything.
-            </p>
-          </div>
+        {/* Origin */}
+        <div className="text-center mb-8">
+          <p className="text-base md:text-lg font-light leading-relaxed mb-2">
+            We were born from the belief that we can do better and the conviction that we will.
+            Our name carries that same spirit, drawn from the Tamil phrase
+          </p>
 
-          <div className="space-y-4">
-            <p className="text-base md:text-lg font-light leading-relaxed">
-              <strong>MUV</strong> was born from a need to keep pushing — to make things that feel intentional, that stand for something.
-              Our name comes from the Tamil phrase
-            </p>
-            <p className="text-lg md:text-xl font-bold leading-relaxed">
-              மாற்றம் செய். உயர்வு அடை. விடாமுயற்சி கொண்டிரு.
-            </p>
-            <p className="text-lg md:text-xl font-bold leading-relaxed">
-              Maatram Sei. Uyarvu Adai. Vidamuyarchi Kondiru.
-            </p>
-            <p className="text-base md:text-lg font-light leading-relaxed">
-              It&apos;s a reminder of what drives us: change, growth, and persistence.
-            </p>
-          </div>
+          <p className="text-3xl md:text-3xl font-light tracking-wider mb-2 pt-6">
+            மாற்றம் செய். உயர்வு அடை. விடாமுயற்சி கொண்டிரு.
+          </p>
+          <p className="text-2xl md:text-sm font-light text-gray-500 tracking-wider mb-6 italic">
+            <strong>M</strong>aatram Sei. <strong>U</strong>yarvu Adai. <strong>V</strong>idamuyarchi Kondiru.
+          </p>
 
-          <div className="border-t border-black/20 pt-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
-              Built for the Obsessive
-            </h2>
-            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              We make gear for people who care — about how something feels, fits, and holds up through time.
-              For the ones chasing better every day, the ones who never stop refining.
-            </p>
-            <p className="text-base md:text-lg font-light leading-relaxed">
-              MUV isn&apos;t made for everyone. It&apos;s made for those who live with intent.
-            </p>
-          </div>
+          <p className="text-base md:text-lg font-light leading-relaxed">
+            It&apos;s a reminder of what drives us - change, growth, and persistence.
+          </p>
+        </div>
 
-          <div className="border-t border-black/20 pt-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
-              High-End by Design
-            </h2>
-            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              We don&apos;t rush things.
-              Every material, every stitch, every design choice has a reason behind it.
-            </p>
-            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              Premium fabrics. Honest construction. Details that last.
-              We ask ourselves one question before anything leaves the studio: Would we wear this every day?
-            </p>
-          </div>
+        {/* Built for the Obsessive */}
+        <div className="text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 tracking-tight">
+            Built for the Pursuit
+          </h2>
+          <p className="text-base md:text-lg font-light leading-relaxed mb-2">
+            We make apparel for people who care about how something feels, fits, and holds up through time.
+            For the ones chasing better every day, the ones who never stop refining.
+          </p>
+        </div>
 
-          <div className="border-t border-black/20 pt-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
-              Our Promise
-            </h2>
-            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              We&apos;ll never release something we don&apos;t believe in.
-              If it doesn&apos;t perform, endure, and feel right — it doesn&apos;t make the cut.
-            </p>
-            <p className="text-base md:text-lg font-light leading-relaxed">
-              We make fewer things, but we make them right.
-              That&apos;s our promise: every piece should earn its place in your life.
-            </p>
-          </div>
+        {/* High-End by Design */}
+        <div className="text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 tracking-tight">
+            High-End by Design
+          </h2>
+          <p className="text-base md:text-lg font-light leading-relaxed mb-2">
+            We don&apos;t rush things.<br />
+            Every material, every stitch, every design choice has a reason behind it.
+          </p>
+          <p className="text-base md:text-lg font-light leading-relaxed">
+            Premium fabrics. Honest construction. Details that last.<br />
+            We ask ourselves one question before anything leaves the studio: Would we wear this every day?
+          </p>
+        </div>
 
-          <div className="border-t border-black/20 pt-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 tracking-tight">
-              Where We&apos;re Going
-            </h2>
-            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              MUV starts with Jiu-Jitsu — our home base. But this is just the beginning.
-            </p>
-            <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-              We&apos;re building a system of gear that adapts as you grow — from the mats to the gym to wherever you move next.
-              Because the pursuit never ends and the core stays the same:
-            </p>
-            <p className="text-xl md:text-2xl font-bold tracking-wide">
-              Disrupt. Evolve. Be Relentless.
-            </p>
-          </div>
+        {/* Our Promise */}
+        <div className="text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 tracking-tight">
+            Our Promise
+          </h2>
+          <p className="text-base md:text-lg font-light leading-relaxed mb-2">
+            We&apos;ll never release something we don&apos;t believe in.<br />
+            If it doesn&apos;t perform, endure, and feel right — it doesn&apos;t make the cut.
+          </p>
+          <p className="text-base md:text-lg font-light leading-relaxed">
+            We make fewer things, but we make them right.<br />
+            That&apos;s our promise: every piece should earn its place in your life.
+          </p>
+        </div>
+
+        {/* Where We're Going */}
+        <div className="text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 tracking-tight">
+            Where We&apos;re Going
+          </h2>
+          <p className="text-base md:text-lg font-light leading-relaxed mb-2">
+            MUV starts with Jiu-Jitsu — our home base. But this is just the beginning.
+          </p>
+          <p className="text-base md:text-lg font-light leading-relaxed mb-4">
+            We&apos;re building a system of apparel that adapts as you grow — from the mats to the gym to wherever you move next.<br />
+            Because the pursuit never ends and the core stays the same:
+          </p>
+
+          <p className="text-3xl md:text-5xl font-bold tracking-tight pt-14">
+            Disrupt. Evolve. Be Relentless.
+          </p>
         </div>
       </main>
 
