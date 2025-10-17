@@ -28,8 +28,8 @@ export default function About() {
           <Image
             src="/Logo.png"
             alt="MUV Logo"
-            width={600}
-            height={200}
+            width={500}
+            height={1500}
             priority
             className="w-full max-w-[600px] h-auto"
           />
