@@ -50,7 +50,7 @@ export default function About() {
           </p>
 
           <p className="text-base md:text-lg font-light leading-relaxed">
-            It&apos;s a reminder of what drives us - change, growth, and persistence.
+            It&apos;s a constant reminder of what drives us - change, growth, and persistence.
           </p>
         </div>
 
@@ -72,11 +72,13 @@ export default function About() {
           </h2>
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
             We don&apos;t rush things.<br />
+            We don&apos;t chase fast fashion trends.<br />
             Every material, every stitch, every design choice has a reason behind it.
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed">
-            Premium fabrics. Honest construction. Details that last.<br />
-            We ask ourselves one question before anything leaves the studio: Would we wear this every day?
+            This includes choosing sustainable, high-grade fabrics and utilizing proprietary weaves based on R&D and data.<br />
+            Honest construction means we build for performance and we build to last.<br />
+            We ask ourselves one question before anything leaves the studio: Would we wear this every day, for years to come?
           </p>
         </div>
 
@@ -87,11 +89,12 @@ export default function About() {
           </h2>
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
             We&apos;ll never release something we don&apos;t believe in.<br />
-            If it doesn&apos;t perform, endure, and feel right — it doesn&apos;t make the cut.
+            If it doesn&apos;t perform, endure, and feel right — it doesn&apos;t make the cut.<br />
+            We are committed to meticulous quality and fighting consumption fatigue.
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed">
             We make fewer things, but we make them right.<br />
-            That&apos;s our promise: every piece should earn its place in your life.
+            That&apos;s our promise: every piece should earn its place in your life, reducing waste and elevating the way you feel in our apparel.
           </p>
         </div>
 
@@ -101,11 +104,13 @@ export default function About() {
             Where We&apos;re Going
           </h2>
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
-            We are starting with Jiu-Jitsu — our home base. But this is just the beginning.
+            We are starting with Jiu-Jitsu — our home base.<br />
+            Every GI is rigorously tested on the mat and refined until it meets our uncompromising standards.<br />
+            But this is just the beginning.
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-            We&apos;re building a system of apparel that adapts as you grow — from the mats to the gym to wherever you move next.<br />
-            Because the pursuit never ends and the core stays the same:
+            We&apos;re building a system of apparel designed to carry your high standards everywhere.<br />
+            Because the pursuit never ends and the ethos stays the same:
           </p>
 
           <p className="text-3xl md:text-5xl font-bold tracking-tight pt-14">
