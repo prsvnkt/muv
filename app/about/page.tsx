@@ -39,8 +39,7 @@ export default function About() {
         <div className="text-center mb-8">
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
             We were born from the belief that we can do better and the conviction that we will.<br /> 
-            This is defined by our three guiding principles: <br />
-            Disrupt, Evolve and Be Relentless <br />
+            This is defined by our three guiding principles: Disrupt, Evolve and Be Relentless. <br />
             They are a constant reminder of what drives us and what we stand for.
           </p>
         </div>
