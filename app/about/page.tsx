@@ -105,7 +105,7 @@ export default function About() {
             But this is just the beginning.
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed mb-4">
-            We&apos;re building a system of apparel designed to carry your high standards everywhere.<br />
+            We&apos;re building a collection of apparel designed to carry your high standards everywhere.<br />
             Because the pursuit never ends and the ethos stays the same:
           </p>
 
