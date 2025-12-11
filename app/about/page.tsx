@@ -101,7 +101,7 @@ export default function About() {
           </h2>
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
             We are starting with Jiu-Jitsu — our home base.<br />
-            Every GI is rigorously tested on the mat and refined until it meets our uncompromising standards.<br />
+            Every Gi is rigorously tested on the mat and refined until it meets our uncompromising standards.<br />
             But this is just the beginning.
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed mb-4">
