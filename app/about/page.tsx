@@ -73,7 +73,7 @@ export default function About() {
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed">
             This includes choosing sustainable, high-grade fabrics and utilizing proprietary weaves based on R&D and data.<br />
-            Honest construction means we build for performance and we build to last.<br />
+            We build for performance and we build to last.<br />
             We ask ourselves one question before anything leaves the studio: Would we wear this every day, for years to come?
           </p>
         </div>
