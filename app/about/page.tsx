@@ -38,19 +38,10 @@ export default function About() {
         {/* Origin */}
         <div className="text-center mb-8">
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
-            We were born from the belief that we can do better and the conviction that we will.
-            Our name carries that same spirit, drawn from the Tamil phrase
-          </p>
-
-          <p className="text-3xl md:text-3xl font-light tracking-wider mb-2 pt-6">
-            மாற்றம் செய். உயர்வு அடை. விடாமுயற்சி கொண்டிரு.
-          </p>
-          <p className="text-2xl md:text-sm font-light text-gray-500 tracking-wider mb-6 italic">
-            <strong>M</strong>aatram Sei. <strong>U</strong>yarvu Adai. <strong>V</strong>idamuyarchi Kondiru.
-          </p>
-
-          <p className="text-base md:text-lg font-light leading-relaxed">
-            It&apos;s a constant reminder of what drives us - change, growth, and persistence.
+            We were born from the belief that we can do better and the conviction that we will.<br /> 
+            This is defined by our three guiding principles: <br />
+            Disrupt, Evolve and Be Relentless <br />
+            They are a constant reminder of what drives us and what we stand for.
           </p>
         </div>
 
