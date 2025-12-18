@@ -48,16 +48,9 @@ export default function About() {
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
             They are a constant reminder of what drives us and what we stand for.
           </p>
-        </div>
 
-        {/* Built for the Obsessive */}
-        <div className="text-center mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 tracking-tight">
-            Built for the Pursuit
-          </h2>
           <p className="text-base md:text-lg font-light leading-relaxed mb-2">
             We make apparel for people who care about how something feels, fits, and holds up through time.
-            For the ones chasing to be better every day, the ones who never stop refining.
           </p>
         </div>
 
@@ -106,11 +99,11 @@ export default function About() {
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed mb-4">
             We&apos;re building a collection of apparel designed to carry your high standards everywhere.<br />
-            Because the pursuit never ends and the ethos stays the same:
+            Because the pursuit never ends and the ethos stays the same.
           </p>
 
           <p className="text-3xl md:text-5xl font-bold tracking-tight pt-14">
-            Disrupt. Evolve. Be Relentless.
+            Built for movement. Worn for life.
           </p>
         </div>
       </main>
