@@ -36,7 +36,7 @@ export default function Home() {
         {/* Tagline */}
         <div className="mb-12">
           <p className={`text-xl md:text-2xl text-black font-light tracking-wide ${montserrat.className}`}>
-            Disrupt. Evolve. Be Relentless.
+            Built for movement. Worn for life.
           </p>
         </div>
 
