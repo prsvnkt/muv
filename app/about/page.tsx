@@ -65,7 +65,7 @@ export default function About() {
             Every material, every stitch, every design choice has a reason behind it.
           </p>
           <p className="text-base md:text-lg font-light leading-relaxed">
-            This includes choosing sustainable, high-grade fabrics and utilizing proprietary weaves based on R&D and data.<br />
+            This includes choosing sustainable, high-grade fabrics, backed by real research and meticulous QA.<br />
             We build for performance and we build to last.<br />
             We ask ourselves one question before anything leaves the studio: Would we wear this every day, for years to come?
           </p>
