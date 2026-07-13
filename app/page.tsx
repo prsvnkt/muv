@@ -43,7 +43,7 @@ export default function Home() {
         {/* Coming Soon Message */}
         <div className="text-center">
           <h1 className={`text-5xl md:text-7xl font-bold text-black tracking-tight ${montserrat.className}`}>
-            Coming Early 2026
+            Coming Soon
           </h1>
         </div>
       </main>
